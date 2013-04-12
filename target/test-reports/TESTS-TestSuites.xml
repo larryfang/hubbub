@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="las-MacBook-Pro.local" id="0" name="UserIntegrationTests" package="com.grailsinaction" tests="4" time="0.058" timestamp="2013-04-07T07:42:31">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSave" time="0.018" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testUpdate" time="0.01" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testDelete" time="0.019" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.0060" />
+
+      <system-out><![CDATA[--Output from testSave--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testEvilSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSave--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testEvilSave--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
