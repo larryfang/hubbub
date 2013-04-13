@@ -71,28 +71,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="71" selection-start="505" selection-end="505" vertical-scroll-proportion="0.47244096">
+            <state line="6" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="-3.9130435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserIntegrationTests.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationTests.groovy">
+      <file leaf-file-name="UserTests.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="97" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
+            <state line="15" column="20" selection-start="280" selection-end="280" vertical-scroll-proportion="-9.130435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy">
+      <file leaf-file-name="PostTests.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/PostTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+            <state line="15" column="21" selection-start="280" selection-end="280" vertical-scroll-proportion="-9.130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileTests.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/ProfileTests.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="28" selection-start="286" selection-end="286" vertical-scroll-proportion="0.33070865">
               <folding />
             </state>
           </provider>
@@ -107,10 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTests.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy">
+      <file leaf-file-name="Post.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+            <state line="9" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserIntegrationTests.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationTests.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="97" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,6 +148,9 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Profile.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/com/grailsinaction/PostTests.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/com/grailsinaction/ProfileTests.groovy" />
       </list>
     </option>
   </component>
@@ -302,9 +323,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Grails.testSomething()">
     <configuration default="false" name="testSomething()" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
@@ -478,7 +499,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -507,20 +528,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Profile.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
@@ -584,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="97" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
@@ -599,33 +599,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Profile.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="71" selection-start="505" selection-end="505" vertical-scroll-proportion="0.47244096">
+        <state line="6" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="-3.9130435">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="280" selection-end="280" vertical-scroll-proportion="-9.130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/PostTests.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="280" selection-end="280" vertical-scroll-proportion="-9.130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/com/grailsinaction/ProfileTests.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="286" selection-end="286" vertical-scroll-proportion="0.33070865">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
